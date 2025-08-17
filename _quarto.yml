@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "alanct.github.io"
+  title: "Alandharma le Flaneur"
   navbar:
     left:
       - href: index.qmd
