@@ -1,5 +1,5 @@
 ---
-title: "alanct.github.io"
+title: "Alandharma le Flaneur"
 ---
 
 This is a Quarto website.
