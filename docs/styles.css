@@ -1,1 +1,11 @@
 /* css styles */
+/* Ensure Chinese fonts are supported */
+body {
+  font-family: 'Noto Sans', 'Noto Sans CJK TC', 'Noto Sans CJK SC', sans-serif;
+}
+
+/* Language switcher styling */
+.navbar .nav-item a {
+  margin-left: 10px;
+  font-size: 1.1em;
+}

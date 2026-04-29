@@ -1,0 +1,27 @@
+---
+title: 歡迎來到我的網站
+lang: zh-Hant
+image: alanPhoto.png
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em  
+  links:
+    - text: 電郵
+      icon: envelope
+      href: mailto:alandharma@e.cuhk.edu.hk
+    - text: GitHub
+      icon: github
+      href: https://github.com/alanct
+    - icon: twitter
+      text: X
+      href: https://x.com/home
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: meta
+      text: Meta
+      href: https://www.facebook.com/alandharmaLeFlaneur/     
+---
+
+我是香港中文大学市场营销学教授。

@@ -1,11 +1,26 @@
 ---
 title: "Alandharma le Flaneur"
+image: alanPhoto.png
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em  
+  links:
+    - text: Email
+      icon: envelope
+      href: mailto:alandharma@e.cuhk.edu.hk
+    - text: GitHub
+      icon: github
+      href: https://github.com/alanct
+    - icon: twitter
+      text: X
+      href: https://x.com/AlanLeFlaneur
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/AlanLeFlaneur/
+    - icon: meta
+      text: Meta
+      href: https://www.facebook.com/alandharmaLeFlaneur/     
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+I am a Professor of Marketing at the Chinese University of Hong Kong.

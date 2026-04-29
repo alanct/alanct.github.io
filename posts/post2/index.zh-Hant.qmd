@@ -1,0 +1,9 @@
+---
+title: "我的第2篇博客"
+date: 2025-09-20
+categories: [新聞]
+lang: zh-Hant
+---
+這是我的第2篇繁體中文博客文章。
+
+![](thumbnail.jpg)

@@ -1,0 +1,27 @@
+---
+title: "Alandharma le Flaneur"
+image: alanPhoto.png
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em  
+  links:
+    - text: Email
+      icon: envelope
+      href: mailto:alandharma@e.cuhk.edu.hk
+    - text: GitHub
+      icon: github
+      href: https://github.com/alanct
+    - icon: twitter
+      text: X
+      href: https://x.com/home
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: meta
+      text: Meta
+      href: https://www.facebook.com/alandharmaLeFlaneur/     
+lang: zh-Hans      
+---
+
+这是我的网站的简体中文版本。

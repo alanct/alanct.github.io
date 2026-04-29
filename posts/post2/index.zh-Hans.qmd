@@ -1,0 +1,10 @@
+---
+title: "我的第2篇博客"
+date: "2025-09-20"
+categories: [新闻]
+lang: zh-Hans
+---
+
+这是我的第2篇简体中文博客文章。
+
+![](thumbnail.jpg)

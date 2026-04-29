@@ -1,11 +1,11 @@
 ---
 title: "Welcome To My Blog"
 author: "Alan Tse"
-date: "2025-07-17"
+date: 2025-09-20
 categories: [news]
+lang: en
 ---
-
-This is the first post in a Quarto blog. Welcome!
+Welcome!
 
 ![](thumbnail.jpg)
 

@@ -1,7 +1,7 @@
 project:
   type: website
-  output-dir: docs
-  
+  output-dir: docs # For GitHub Pages
+
 website:
   title: "Alandharma le Flaneur"
   navbar:
@@ -9,13 +9,54 @@ website:
       - href: index.qmd
         text: Home
       - text: "My Blog"
-        file: blog.qmd
-      - about.qmd        
+        menu:
+          - text: "English"
+            href: blog.qmd
+          - text: "繁體中文"
+            href: blog.zh-Hant.qmd
+          - text: "简体中文"
+            href: blog.zh-Hans.qmd
+      - about.qmd   
+    right:
+      - icon: translate  # Language switcher icon
+        menu:
+          - text: "English"
+            href: index.html
+          - text: "繁體中文"  # Traditional Chinese
+            href: zh-Hant/index.html
+          - text: "简体中文"  # Simplified Chinese
+            href: zh-Hans/index.html
+
 format:
   html:
-    theme: cosmo
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Sans+SC&display=swap">  
+    theme: sandstone
     css: styles.css
     toc: true
+    lang: en  # Default language
 
+babelquarto:
+  languagelinks: navbar  # Places language switcher in navbar
+  languagecodes:
+  - name: zh-Hant
+    text: "繁體中文"
+  - name: zh-Hans
+    text: "简体中文"
+  - name: en
+    text: "English"
+  mainlanguage: 'en'
+  languages: ['zh-Hant', 'zh-Hans']
 
+# Language-specific metadata (edit with translations)
+title-zh-Hans: "我的网站"  # Simplified Chinese title
+title-zh-Hant: "我的網站"  # Traditional Chinese title
+description-zh-Hans: "我的多语言网站描述"  # Add translations as needed
+description-zh-Hant: "我的多語言網站描述"
+author-zh-Hans: "作者 (Simplified)"
+author-zh-Hant: "作者 (Traditional)"
+
+execute:
+  freeze: auto
 
