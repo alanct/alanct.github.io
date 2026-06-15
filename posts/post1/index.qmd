@@ -1,10 +1,18 @@
 ---
 title: "My First Post"
 author: "Alan Tse"
-date: 2025-09-20
+date: last-modified
 categories: [news]
 image: "image.jpg"
 lang: en
 ---
-This is my first blog post in English.
+This is my first post!
+
+**‘If you wish to be a writer, write.’ … Epictetus**
+
+I always want to write about logical and critical thinking based on some self-evident axioms, and use these axioms to analyse human behaviour in general, and economics and financial investments in particular, and hopefully the approach would lead me to make sound investment decisions. I have procrastinated for a long time until very recently, I came across the above Epictetus quote, and finally decided to give it a go.
+
+I would hope that I can start a community of like-minded people to subscribe to my blog, and obtain feedback for mutual improvement and satisfaction.
+
+My plan is to post one or two pieces each week.
 

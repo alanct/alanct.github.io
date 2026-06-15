@@ -17,6 +17,8 @@ website:
           - text: "简体中文"
             href: blog.zh-Hans.qmd
       - about.qmd   
+      - href: https://buy.stripe.com/5kQdRb4Kd63S6Gv7BZ6Ri00
+        text: Buy Me a Coffee
     right:
       - icon: translate  # Language switcher icon
         menu:

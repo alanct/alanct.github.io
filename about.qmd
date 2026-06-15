@@ -2,7 +2,7 @@
 title: "About me"
 ---
 
-I am a Professor of Marketing at the Chinese University of Hong Kong. I teach Marketing Research, Quantitative Marketing and Internet Marketing at both undergraduate and postgraduate levels. My current research interests are data analytics, complexity systems in marketing, and Chinese wisdom and marketing. 
+I am a retired Professor of Marketing at the Chinese University of Hong Kong. I taught Marketing Research, Quantitative Marketing, Internet Marketing and Chinese Wisdom and Marketing at both undergraduate and postgraduate levels. My current research interests are data analytics, complexity systems in marketing, and Chinese wisdom and marketing. 
 
 **Publications in Refereed Academic Journals**
  
