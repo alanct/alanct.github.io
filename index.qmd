@@ -20,7 +20,10 @@ about:
       href: https://www.linkedin.com/in/AlanLeFlaneur/
     - icon: meta
       text: Meta
-      href: https://www.facebook.com/alandharmaLeFlaneur/     
+      href: https://www.facebook.com/alandharmaLeFlaneur/  
+    - icon: substack
+      href: https://alandharma.substack.com
+      text: Substack
 ---
 
 I am a retired Professor of Marketing at the Chinese University of Hong Kong.

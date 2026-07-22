@@ -1,12 +1,46 @@
 ---
-title: "Welcome To My Blog"
+title: "Cui Bono?"
 author: "Alan Tse"
-date: 2025-09-20
-categories: [news]
+date: last-modified
+categories: [investment]
 lang: en
 ---
-Welcome!
+**Cui Bono: Why Kevin Warsh Is Just Another Dove in Disguise**
 
-![](thumbnail.jpg)
+::: {style="float: left; margin-right: 15px;"}
+![](post2.jpg){width="250px"} 
+:::
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+Let us begin with a little tale from ancient Rome. When a senator was found murdered in the Forum, the great orator Cicero would ask the crowd: *Cui bono?* — To whom is it a benefit? Who gains? This simple question often unraveled the truth faster than any forensic sleuthing. Fast-forward a couple of millennia, and the same axiom shines like a beacon in the fog of mysterious monetary policy. Incentives, not press-conference mere rhetoric, reveal the truth about human behavior.
+
+**Axiom 1: Cui bono — to whom is it a benefit?**
+
+This is the first principle I’ll wield frequently in these postings. Incentives include not just material rewards like fat paychecks and bonuses, but also the psychological satisfaction of “feeling good” and "doing the right thing".
+
+On June 17, 2026, Kevin Warsh held his first press conference as the new Fed Chairman. He professed a solemn commitment to restoring price stability. Recent inflation? A stubborn 4.2% year-over-year in May 2026 — the highest in over three years, driven largely by surging energy prices amid geopolitical fireworks. Yet the Fed left interest rates unchanged.
+
+Pundits swooned: “Warsh is different! A real hawk!” 
+
+I beg to differ.
+
+Let’s follow the incentives, shall we? President Trump is a low-interest-rate guy. He openly declared, “I love the inflation... The numbers were great. You know what I really love? I love the inflation.” Trump hammered prior Chair Jerome Powell as “Mr. Too Late,” a “major loser,” and a “real stiff” for not slashing rates aggressively enough. He pushed Powell aside precisely because the old chair wouldn’t goose the economy with easy money ahead of the midterms.
+
+Would Trump appoint a genuine inflation warrior who’d hike rates and risk a slowdown? Of course not. Warsh got the job because the incentives align. He will talk tough but deliver accommodation. Pretend hawkishness is the perfect cover.
+
+Truly slaying inflation requires higher rates and less money printing. Simple as that. Instead, Warsh offered excuses centered on supply shocks (energy, etc.), productivity hopes (thanks to AI), and the need for “more evidence” or better data. He announced task forces to “review” communications, the balance sheet, inflation frameworks, and more — classic bureaucratic delay tactics while the printing press stays warm.
+
+Pushing the fed funds rate meaningfully higher would explode interest costs on the US gargantuan national debt, not to mention risking Trump's mid-term election. Net interest payments already consume roughly 18–22% of federal revenues. At higher rates, that burden could balloon toward 25%+ of revenue, crowding out everything else. Politically and financially suicidal it is. So incentives says the most likely way forward is continued accommodation and money printing.
+
+Warsh may raise rates modestly to fight inflation if the latter continues to go higher, but real interest rates would almost certainly remain negative. More importantly, the moment there’s even the slightest hint of economic trouble — a wobble in the stock market, a dip in employment, or political pressure from the White House — he will slam on the brakes and cut rates without hesitation. After all, when push comes to shove, the incentives always win.
+
+Warsh’s perceived hawkish debut (with the dot plot hinting at possible hikes) initially strengthened the dollar and pressured stocks — the S&P 500 dropped over 1% that day, marking one of the worst first-Fed-day performances in decades. Gold and silver were slammed toward their 200-day moving averages amid the scare. But if this hawkishness is mostly theater (as incentives strongly suggest), the long-term script is clear: persistent currency debasement, a weaker U.S. Dollar over time, and higher precious metals as the reliable escape hatch.
+
+Investors would do well to consider hard assets like gold and silver as protection against long-term currency debasement. With both metals recently testing their 200-day moving averages after the selloff, this could turn out to be a compelling buying opportunity.
+
+This article has also been published on [my Substack site](https://alandharma.substack.com/).
+
+**Disclaimer:** 
+
+The content provided on this blog is for informational and educational purposes only and does not constitute financial, investment, or professional advice. I am not a licensed financial advisor; the views expressed are solely my personal opinions based on logic and general observations. Financial markets are inherently volatile and unpredictable, and past performance is not indicative of future results.
+
+Readers are strongly encouraged to conduct independent research, perform thorough due diligence, and consult with qualified professionals before making any investment or financial decisions. By accessing and using this blog, you acknowledge and agree that the author bears no responsibility or liability for any losses, damages, or adverse outcomes that may result from reliance on the information presented herein.
