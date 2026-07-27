@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Alan Tse">
 
-<title>Alan’s 博客 – Alandharma le Flaneur</title>
+<title>貨幣雙重思想 – Alandharma le Flaneur</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-acb86da7cc94e534617b9af23b514896.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-acb86da7cc94e534617b9af23b514896.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,68 +69,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "搜索"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&amp;family=Noto+Sans+SC&amp;display=swap">  
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -141,9 +82,9 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Alandharma le Flaneur</span>
     </a>
   </div>
@@ -154,7 +95,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -163,21 +104,21 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-my-blog">    
         <li>
-    <a class="dropdown-item" href="./blog.html">
+    <a class="dropdown-item" href="../../blog.html">
  <span class="dropdown-text">English</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./blog.zh-Hant.html">
+    <a class="dropdown-item" href="../../blog.zh-Hant.html">
  <span class="dropdown-text">繁體中文</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./blog.zh-Hans.html">
+    <a class="dropdown-item" href="../../blog.zh-Hans.html">
  <span class="dropdown-text">简体中文</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
@@ -194,15 +135,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-bi-translate">    
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">English</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./zh-Hant/index.html">
+    <a class="dropdown-item" href="../../zh-Hant/index.html">
  <span class="dropdown-text">繁體中文</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./zh-Hans/index.html">
+    <a class="dropdown-item" href="../../zh-Hans/index.html">
  <span class="dropdown-text">简体中文</span></a>
   </li>  
     </ul>
@@ -217,132 +158,69 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Alan’s 博客</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">貨幣雙重思想</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">投資</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">作者</div>
+      <div class="quarto-title-meta-contents">
+               <p>Alan Tse </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">发布于</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">2026年7月27日</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">分类</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">全部 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUU2JThBJTk1JUU4JUIzJTg3">投資 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUU2JTk2JUIwJUU4JTgxJTlF">新聞 <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="JUU2JThBJTk1JUU4JUIzJTg3" data-listing-date-sort="1785158629000" data-listing-file-modified-sort="1785158629880" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
-<div class="thumbnail"><a href="./posts/post3/index.zh-Hant.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\post3\post3.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post3/index.zh-Hant.html" class="no-external">貨幣雙重思想</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUU2JThBJTk1JUU4JUIzJTg3'); return false;">投資</div>
-
+<p><strong>貨幣領域的「雙重思想」：戰爭即和平，黃金即垃圾</strong></p>
+<div style="float: left; margin-right: 15px;">
+<p><img src="post3.jpg" class="img-fluid" width="250"></p>
 </div>
-<div class="delink listing-description"><a href="./posts/post3/index.zh-Hant.html" class="no-external">
-<strong>貨幣領域的「雙重思想」：戰爭即和平，黃金即垃圾</strong>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post3/index.zh-Hant.html" class="no-external">
-<div class="listing-date">
-2026年7月27日
-</div>
-<div class="listing-author">
-Alan Tse
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="JUU2JThBJTk1JUU4JUIzJTg3" data-listing-date-sort="1784711297000" data-listing-file-modified-sort="1784711297063" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<div class="thumbnail"><a href="./posts/post2/index.zh-Hant.html" class="no-external">
+<p>在喬治·奧威爾的1949年小說《1984》中，大洋國政府強迫公民接受“雙重思想”：即同時持有兩種相互矛盾的信念，並視兩者皆為真理，例如：“戰爭即和平”，“自由即奴役”，“無知即力量”等，其目的不僅僅是令人民服從，而是發自內心的深信不疑。人們必須感受這些口號就是現實，即使所有證據都指向相反的方向。</p>
+<p>快進到2026年，金融市場已形成了一套屬於自己的“貨幣雙重思想”：“戰爭是通縮的”、“賣出黃金是避險”、“經濟數據糟糕對股市是利好的” … 投資者對此深信不疑，並以此為行事依據；黃金和白銀的表現印证了這一點，它們的走勢與歷史典籍、教科書以及常識的預測截然相反。</p>
+<p>以下事件不斷循環發生：川普總統威脅要轟炸伊朗的橋樑、發電廠或石油基礎設施。市場因擔心石油衝擊而恐慌，原油價格飆升，通膨擔憂重燃。交易員紛紛押注升息，金銀遭到拋售。一兩天后，川普便上演了「TACO」把戲（TACO代表Trump Always Chickens Out，是華爾街的一個縮寫詞，意為「川普總是臨陣退縮」 - 指他慣於發出極端威脅語句，隨後又收回成命的行徑）。談判重啟，油價回落，升息憂慮緩解，貴金屬收復部分失地。隨後，循環重新開始。我們就像電影《偷天情緣》裡的比爾·默瑞一樣，被困在這個循環中已長達數月。</p>
+<p>官方的解釋聽起來合乎邏輯：局勢升級推高了能源價格風險，進而推高CPI，迫使聯準會加息；而黃金是不產生收益的資產，美元收益率上升提高了其機會成本。因此黃金以美元計價下跌。白銀具有工業屬性，波動性更大，跌幅更深。當「TACO」時刻到來，持續油價衝擊的威脅消退，貴金屬就會反彈。完美的解釋。</p>
+<p>然而，戰爭產生通膨，歷來如此。戰爭會破壞供應、資源被轉移、擴大赤字，並往往以印鈔收場。看看歷史數據便知：第一次世界大戰引發的通膨導緻美國物價上漲超過一倍，歐洲的情況更為嚴重。第二次世界大戰帶來了物資短缺和配給制；戰後一旦管制解除，美國物價在一年內飆升了20%以上。越戰主要依靠赤字而非稅收來提供資金，這助長了20世紀70年代的「大通膨」。1973年的贖罪日戰爭（第四次中東戰爭）及隨後的石油禁運導致原油價格翻了四倍，並引發了長達十年的滯脹。即使是規模較小的1990-1991年海灣戰爭，也導致了油價飆升和通膨率的顯著上升。追溯一個多世紀的地緣政治經濟指數顯示出同樣的規律：戰爭及戰爭威脅往往預示著軍費開支增加、債務攀升、貨幣貶值，進而導致通膨加劇！</p>
+<p>可是我們現在卻將戰爭視為通貨緊縮因素，而非結構性的通膨推手。在金融與政治的世界裡，有時需要具備瘋子的視角，才能理解這種集體瘋狂現象：大眾正在拋售貴金屬，而貴金屬在歷史上恰恰能在政府發動戰爭並印鈔填補缺口時，有效保護購買力！</p>
+<p>那些認為當前戰爭不利於黃金和白銀的投資者犯了大錯。聰明的資本往往透過反向押注大眾的錯誤假設來獲利。貴金屬價格先前已為「升息恐慌」的論調付出了代價：白銀價格已從2026年1月每盎司121美元的歷史高點腰斬；黃金價格也從約5500美元的峰值回落，跌去了約四分之一到三分之一的價值。然而，支撐其價格的基本驅動因素 - 持續的赤字、央行購金、白銀的工業需求以及法幣購買力的長期縮水- 仍然穩固。</p>
+<p>當戰火最終平息，或者當市場終於明白戰爭具有通膨而非通縮效應時，貴金屬價格應該會重拾升勢。</p>
+<p>戰爭引發通膨，黃金白銀提供保護。除此之外的一切，皆為「雙重思想」下的謬論。</p>
+<p>這篇文章也已發佈在<a href="https://alandharma.substack.com/">我的Substack網站</a>上</p>
+<p><strong>免責聲明</strong></p>
+<p>本部落格所提供之內容僅供資訊與教育用途，並不構成任何財務、投資或專業建議。本人並非持牌財務顧問；文中所表達之觀點僅屬個人基於邏輯思考與一般觀察所得的意見。金融市場本質上具有高度波動性與不可預測性，過往表現並不代表未來結果。</p>
+<p>強烈建議讀者在作出任何投資或財務決策前，應自行進行獨立研究、充分的調查分析，並諮詢合格的專業人士。透過存取及使用本部落格的資料，您即承認並同意作者對於因依賴此處所載資訊而可能導致的任何損失、損害或不利結果，概不承擔任何責任或義務。</p>
 
-<p class="card-img-top"><img src="posts\post2\post2.jpg"  class="thumbnail-image card-img"/></p>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post2/index.zh-Hant.html" class="no-external">誰是受益者？</a>
-</h3>
-<div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('JUU2JThBJTk1JUU4JUIzJTg3'); return false;">投資</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/post2/index.zh-Hant.html" class="no-external">
-<strong>Cui Bono：為何凱文·沃什只是另一隻偽裝的鴿子</strong>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post2/index.zh-Hant.html" class="no-external">
-<div class="listing-date">
-2026年7月22日
-</div>
-<div class="listing-author">
-Alan Tse
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="JUU2JTk2JUIwJUU4JTgxJTlF" data-listing-date-sort="1781521440000" data-listing-file-modified-sort="1781521440776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
-<div class="thumbnail"><a href="./posts/post1/index.zh-Hant.html" class="no-external">
-
-<img loading="lazy" src="./posts/post1/image.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post1/index.zh-Hant.html" class="no-external">我的第一篇博客</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('JUU2JTk2JUIwJUU4JTgxJTlF'); return false;">新聞</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/post1/index.zh-Hant.html" class="no-external">
-這是我的第一篇文章！
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post1/index.zh-Hant.html" class="no-external">
-<div class="listing-date">
-2026年6月15日
-</div>
-<div class="listing-author">
-Alan Tse
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">无匹配项</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
