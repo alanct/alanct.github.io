@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Alan Tse">
+<meta name="dcterms.date" content="2026-08-04">
 
-<title>Alan’s Blog – Alandharma le Flaneur</title>
+<title>Kevin Warsh’s Impossible Choice – Alandharma le Flaneur</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-acb86da7cc94e534617b9af23b514896.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-acb86da7cc94e534617b9af23b514896.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,68 +70,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&amp;family=Noto+Sans+SC&amp;display=swap">  
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -141,9 +83,9 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Alandharma le Flaneur</span>
     </a>
   </div>
@@ -154,7 +96,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -163,21 +105,21 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-my-blog">    
         <li>
-    <a class="dropdown-item" href="./blog.html">
+    <a class="dropdown-item" href="../../blog.html">
  <span class="dropdown-text">English</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./blog.zh-Hant.html">
+    <a class="dropdown-item" href="../../blog.zh-Hant.html">
  <span class="dropdown-text">繁體中文</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./blog.zh-Hans.html">
+    <a class="dropdown-item" href="../../blog.zh-Hans.html">
  <span class="dropdown-text">简体中文</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
@@ -194,15 +136,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-bi-translate">    
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">English</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./zh-Hant/index.html">
+    <a class="dropdown-item" href="../../zh-Hant/index.html">
  <span class="dropdown-text">繁體中文</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./zh-Hans/index.html">
+    <a class="dropdown-item" href="../../zh-Hans/index.html">
  <span class="dropdown-text">简体中文</span></a>
   </li>  
     </ul>
@@ -217,162 +159,70 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Alan’s Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Kevin Warsh’s Impossible Choice</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">investment</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Alan Tse </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 4, 2026</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="aW52ZXN0bWVudA==">investment <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p><strong>Between Scylla and Charybdis: Kevin Warsh’s Impossible Choice</strong></p>
+<p><strong>Why the Fed chairman has no good options left, and why gold wins either way</strong></p>
+<div style="float: left; margin-right: 15px;">
+<p><img src="post4.jpg" class="img-fluid" width="250"></p>
+</div>
+<p>In Homer’s <em>Odyssey</em>, the hero Odysseus must sail his ship through a narrow strait guarded by two mortal dangers. On one side lurks Scylla, a six-headed monster that snatches sailors from the deck. On the other spins Charybdis, a giant whirlpool that can swallow the entire vessel. Circe advises him to steer closer to Scylla and sacrifice a few men rather than risk losing everything to the whirlpool. Odysseus reluctantly complies. Six crew members die. The ship survives.</p>
+<p>Kevin Warsh, the new Federal Reserve chairman, finds himself in the same strait. On one side: raise interest rates aggressively enough to crush inflation. On the other: keep rates low (or raise them only modestly) and let inflation continue to erode the currency. There is no clean passage. Both paths inflict damage. The only question is which damage he is willing to accept.</p>
+<p>The straightforward remedy for inflation has always been higher rates. Higher rates cool demand, strengthen the dollar, and eventually bring prices under control. But the United States is no longer a country that can afford the classic cure. Gross national debt stands near USD 39.8 trillion and is on track to cross USD 40 trillion within months. Annual deficits are running close to USD 1.9 trillion this fiscal year and show little sign of shrinking. Social Security and Medicare alone consume enormous shares of the federal budget: Social Security roughly 22–23 percent of outlays and Medicare another 14–17 percent, with net interest payments now rivaling or exceeding defense spending and climbing past USD 1 trillion a year. These programs are politically untouchable, especially with midterm elections approaching. Cutting them would be electoral suicide.</p>
+<p>A rate hike would also hammer the stock market. The U.S. economy is heavily consumption-driven, and household wealth (and the confidence that fuels spending) is tied tightly to equity prices. Capital-gains and related tax receipts form a meaningful portion of federal revenue. A sustained market decline would shrink those receipts just as interest costs rise - an ugly combination that further worsens the fiscal situation.</p>
+<p>Then there is the bond market, the true elephant in the room. The stock market may capture the headlines, but the Treasury market is where the government actually funds itself. Outstanding Treasury debt already exceed USD30 trillion; the broader U.S. bond market is larger still. A rise in long-term yields threatens the entire financing mechanism of the state. When the 10-year Treasury yield climbed from about 3.97 percent in late February 2026 to the mid-4.6 percent range and beyond, borrowing costs for the government (and for everyone else) rose materially. If Warsh raises rates sufficiently high enough to kill inflation, it will cause a deflationary collapse that is politically and economically unacceptable at current debt-to-GDP ratios. Falling prices and incomes would raise the real burden of existing debt, trigger cascading defaults, and risk a self-reinforcing debt-deflation spiral. Governments and central banks will not permit it for long. The historical response to such threats has been aggressive liquidity provision, fiscal stimulus, and monetary expansion - precisely the environment in which gold has thrived.</p>
+<p>Warsh has little genuine choice. Like previous chairpersons, he must continue to do the unsustainable in order to sustain the unsustainable for a while longer. In a world of nearly USD40 trillion in debt, structurally large deficits, and politically sacred entitlement programs, the path of least immediate resistance is the one that tolerates higher inflation and a softer dollar.</p>
+<p>Warsh, like Odysseus, appears to have chosen the less catastrophic path: sacrifice a few sailors (accept higher inflation and a weaker dollar) rather than risk the entire ship (a bond-market revolt that forces yield-curve control or worse).</p>
+<p>At his recent press conference he talked tough about price stability, then left rates unchanged. The market’s response was telling - the 10-year yield pushed higher and the 30-year approached or exceeded 5.2 percent. Debt vigilantes read the decision as a signal that the Fed will ultimately prioritize financial stability and fiscal arithmetic over disinflation.</p>
+<p>We are watching a modern Odysseus choose which sailors to feed to the monster. The ship may limp through the strait. The passengers holding real assets rather than paper promises are the ones most likely to reach the other side intact.</p>
+<p>This article has also been published on <a href="https://alandharma.substack.com/">my Substack site</a>.</p>
+<p><strong>Disclaimer:</strong></p>
+<p>The content provided on this blog is for informational and educational purposes only and does not constitute financial, investment, or professional advice. I am not a licensed financial advisor; the views expressed are solely my personal opinions based on logic and general observations. Financial markets are inherently volatile and unpredictable, and past performance is not indicative of future results.</p>
+<p>Readers are strongly encouraged to conduct independent research, perform thorough due diligence, and consult with qualified professionals before making any investment or financial decisions. By accessing and using this blog, you acknowledge and agree that the author bears no responsibility or liability for any losses, damages, or adverse outcomes that may result from reliance on the information presented herein.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="aW52ZXN0bWVudA==" data-listing-date-sort="1785845928000" data-listing-file-modified-sort="1785845928571" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="848">
-<div class="thumbnail"><a href="./posts/post4/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\post4\post4.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post4/index.html" class="no-external">Kevin Warsh’s Impossible Choice</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0bWVudA=='); return false;">investment</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/post4/index.html" class="no-external">
-<strong>Between Scylla and Charybdis: Kevin Warsh’s Impossible Choice</strong>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post4/index.html" class="no-external">
-<div class="listing-date">
-Aug 4, 2026
-</div>
-<div class="listing-author">
-Alan Tse
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="aW52ZXN0bWVudA==" data-listing-date-sort="1785158630000" data-listing-file-modified-sort="1785158630086" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="755">
-<div class="thumbnail"><a href="./posts/post3/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\post3\post3.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post3/index.html" class="no-external">Monetary Doublethink</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0bWVudA=='); return false;">investment</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/post3/index.html" class="no-external">
-<strong>Monetary Doublethink: War Is Peace, Gold Is Trash</strong>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post3/index.html" class="no-external">
-<div class="listing-date">
-Jul 27, 2026
-</div>
-<div class="listing-author">
-Alan Tse
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="aW52ZXN0bWVudA==" data-listing-date-sort="1784711297000" data-listing-file-modified-sort="1784711297298" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="772">
-<div class="thumbnail"><a href="./posts/post2/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\post2\post2.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post2/index.html" class="no-external">Cui Bono?</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('aW52ZXN0bWVudA=='); return false;">investment</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/post2/index.html" class="no-external">
-<strong>Cui Bono: Why Kevin Warsh Is Just Another Dove in Disguise</strong>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post2/index.html" class="no-external">
-<div class="listing-date">
-Jul 22, 2026
-</div>
-<div class="listing-author">
-Alan Tse
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="bmV3cw==" data-listing-date-sort="1781521242000" data-listing-file-modified-sort="1781521242081" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
-<div class="thumbnail"><a href="./posts/post1/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/post1/image.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post1/index.html" class="no-external">My First Post</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/post1/index.html" class="no-external">
-This is my first post!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post1/index.html" class="no-external">
-<div class="listing-date">
-Jun 15, 2026
-</div>
-<div class="listing-author">
-Alan Tse
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
