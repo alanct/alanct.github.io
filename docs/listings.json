@@ -4,18 +4,20 @@
     "items": []
   },
   {
-    "listing": "/blog.zh-Hant.html",
+    "listing": "/blog.zh-Hans.html",
     "items": [
-      "/posts/post5/index.zh-Hant.html",
-      "/posts/post4/index.zh-Hant.html",
-      "/posts/post3/index.zh-Hant.html",
-      "/posts/post2/index.zh-Hant.html",
-      "/posts/post1/index.zh-Hant.html"
+      "/posts/post6/index.zh-Hans.html",
+      "/posts/post5/index.zh-Hans.html",
+      "/posts/post4/index.zh-Hans.html",
+      "/posts/post3/index.zh-Hans.html",
+      "/posts/post2/index.zh-Hans.html",
+      "/posts/post1/index.zh-Hans.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/post6/index.html",
       "/posts/post5/index.html",
       "/posts/post4/index.html",
       "/posts/post3/index.html",
@@ -24,13 +26,14 @@
     ]
   },
   {
-    "listing": "/blog.zh-Hans.html",
+    "listing": "/blog.zh-Hant.html",
     "items": [
-      "/posts/post5/index.zh-Hans.html",
-      "/posts/post4/index.zh-Hans.html",
-      "/posts/post3/index.zh-Hans.html",
-      "/posts/post2/index.zh-Hans.html",
-      "/posts/post1/index.zh-Hans.html"
+      "/posts/post6/index.zh-Hant.html",
+      "/posts/post5/index.zh-Hant.html",
+      "/posts/post4/index.zh-Hant.html",
+      "/posts/post3/index.zh-Hant.html",
+      "/posts/post2/index.zh-Hant.html",
+      "/posts/post1/index.zh-Hant.html"
     ]
   },
   {

@@ -1,0 +1,47 @@
+---
+title: "Isomorphism and AI Bubble"
+author: "Alan Tse"
+date: last-modified
+categories: [investment]
+lang: en
+---
+**Isomorphism and the Coming AI Crash** 
+
+::: {style="float: left; margin-right: 15px;"}
+![](post6.jpg){width="400px"} 
+:::
+
+An isomorphism is a special kind of mapping between two groups of entities that preserves structure. The two collections look different on the outside, yet they behave identically on the inside. For the mapping to qualify as an isomorphism three conditions must hold: every element in the first set pairs with exactly one element in the second and nothing is left behind; an operation performed in the first set produces a result that corresponds exactly to another operation in the second; and there exists an inverse that takes you back again.
+
+The natural logarithm is the classic textbook example. It transforms the world of multiplication of positive numbers into the world of addition of real numbers. For any two positive numbers a and b in World 1, we can find out their counterparts - ln a and ln b - in World 2, and because $\ln a + \ln b = \ln(a \times b)$, we can use the inverse of logarithm (the exponential function or antilogarithm) to recover the multiplicative product of a x b in World 1.
+
+Before electronic calculators existed, scientists used this trick to simplify the multiplication of huge numbers. They looked up logarithms in thick tables, turned nightmarish multiplications into simple additions, solved the problem, then converted the answer back using antilogarithm, the inverse function that transforms the sum back to the product. The structure stayed intact; only the arithmetic became a lot less intimidating.
+
+Isomorphism has important applications in many areas. For example, in a spam filter, the algorithm calculates the probability that an email is spam based on the individual words it contains: 
+
+$P(\text{Spam}\mid \text{words})\propto P(\text{Spam})\times P(\text{word}_{1}\mid \text{Spam})\times P(\text{word}_{2}\mid \text{Spam})\times \dots \times P(\text{word}_{n}\mid \text{Spam})$ 
+
+In the above formula, words = {word1, word2, …, wordn}, is the collection of words that are contained in the email after the stop words are removed. P(Spam|words) is the posterior probability that the email is a spam, given that it contains the words. P(Spam|words) is proportional to the multiplicative product of P(Spam) or prior probability that the email is a spam, and the individual word likelihood probabilities. The calculation of P(Spam|words) therefore involves the multiplication of probabilities that are numbers between 0 and 1. Multiply enough of them and the product races toward zero so fast that it underflows the floating-point registers of a processor. The machine rounds the result to absolute zero and the algorithm dies. The problem can be solved by passing the entire product through the natural logarithm like what we described above, that is, multiplication is replaced by addition of manageable negative numbers.
+
+A number such as $\ln 10^{-5} \approx -11.51$ is perfectly stable. Summing hundreds of them produces a larger negative number that hardware can store without complaint. 
+
+Because isomorphism preserves structures, any theorem proved in one domain can be translated, almost mechanically into the other. That is precisely why isomorphism can be applied in the analysis of the Dotcom bubble of 1999–2000 and the current AI bubble. The two episodes are isomorphic. The labels have changed - fibre-optic cable has become GPU clusters, “Internet traffic doubles every 100 days” has become “AI will raise productivity beyond imagination” - yet the internal logic is identical. Therefore every lesson extracted from the first bubble can be carried across, without rewriting the proof, to the second.
+
+In both manias investors abandoned independent valuation and surrendered to FOMO (Fear Of Missing Out). During the Dotcom years unprofitable start-ups with little more than a website received multi-billion-dollar valuations. Pets.com, Webvan, and dozens of others soared on pure narrative. Today the same pattern reappears among AI firms and the hyperscalers that feed them. Valuations for the leading model companies have climbed into the hundreds of billions. The market has awarded chipmakers - Nvidia, Broadcom, Micron, AMD, ASML, TSMC - price-to-earnings multiples at elevated levels: Nvidia around 33×, Broadcom 45–60×, AMD often above 80×, ASML north of 50×. Buy the entire group at current prices and the implied payback period stretches decades into the future. The arithmetic is uncomfortably close to the cable and server companies that traded at similarly stratospheric multiples in early 2000.
+
+High valuations finance still higher capital spending, which generates the revenues that justify still higher valuations. Goldman Sachs has projected hyperscaler AI capital expenditure could approach $1.4 trillion by 2027. Trillions are being committed but the returns, so far, are meagre. An MIT Media Lab study (Project NANDA, “The GenAI Divide: State of AI in Business 2025”) examined hundreds of enterprise initiatives and concluded that 95 percent of organisations obtained zero measurable return on their generative-AI investments despite tens of billions spent. The pattern is familiar during the Dotcom era: “eyeballs” and “page views” were treated as leading indicators of future profits that never arrived for most firms.
+
+Willingness to pay remains stubbornly low. OpenAI itself disclosed that ChatGPT had reached roughly 800 million users while only about 50 million - just over 6 percent - were paying subscribers. In the late 1990s the same phenomenon appeared among free email services, content portals, and early e-commerce sites: enormous user counts, negligible conversion to revenue.
+
+Creative accounting and circular financing complete the isomorphism. Nvidia has become the central cog in a web of interrelated deals: equity investments into AI labs and cloud providers that then commit to purchase vast quantities of Nvidia chips or lease Nvidia-powered capacity. The money circles back, revenue is recognised, and the narrative of inexorable demand is reinforced. Cisco and other networking vendors practised a similar art in 1999–2000 by offering generous vendor financing to customers who then bought more Cisco gear. When the music stopped, many of those receivables turned into write-offs.
+
+No one can time the precise moment of rupture. The Dotcom bubble inflated for roughly two years of peak frenzy (1998–2000), collapsed over the following two and a half years, and left the Nasdaq underwater for approximately fourteen years before a full recovery. Will the AI version follow a similar arc?
+
+
+This article has also been published on [my Substack site](https://alandharma.substack.com/).
+
+**Disclaimer:** 
+
+The content provided on this blog is for informational and educational purposes only and does not constitute financial, investment, or professional advice. I am not a licensed financial advisor; the views expressed are solely my personal opinions based on logic and general observations. Financial markets are inherently volatile and unpredictable, and past performance is not indicative of future results.
+
+Readers are strongly encouraged to conduct independent research, perform thorough due diligence, and consult with qualified professionals before making any investment or financial decisions. By accessing and using this blog, you acknowledge and agree that the author bears no responsibility or liability for any losses, damages, or adverse outcomes that may result from reliance on the information presented herein.

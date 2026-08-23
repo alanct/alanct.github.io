@@ -8,7 +8,7 @@
 
 <meta name="author" content="Alan Tse">
 
-<title>项庄舞剑 – Alandharma le Flaneur</title>
+<title>同构与AI泡沫 – Alandharma le Flaneur</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&amp;family=Noto+Sans+SC&amp;display=swap">  
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -159,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">项庄舞剑</h1>
+      <h1 class="title">同构与AI泡沫</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">投资</div>
               </div>
@@ -179,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">发布于</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2026年8月13日</p>
+        <p class="date">2026年8月23日</p>
       </div>
     </div>
     
@@ -200,33 +229,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><strong>项庄舞剑：贝森特真正在保卫的是日圆吗？</strong></p>
-<p><strong>官方说法是援助盟友。真正的诱因，是防止美国国债市场出现失控式抛售。</strong></p>
+<p><strong>同构（isomorphism）与即将到来的AI泡沫爆破</strong></p>
 <div style="float: left; margin-right: 15px;">
-<p><img src="post5.jpg" class="img-fluid" width="250"></p>
+<p><img src="post6.jpg" class="img-fluid" width="400"></p>
 </div>
-<p>秦朝末年，各路起义军中，刘邦与项羽的势力最为强大。双方曾约定：谁先攻下秦都咸阳，谁就在关中称王。结果刘邦先入咸阳，项羽大怒。</p>
-<p>项羽的远房叔父项伯，与刘邦的谋士张良交情甚笃。听到消息后，项伯连夜赶去警告张良，劝他赶紧逃走。张良不愿抛弃主公，反而引荐刘邦与项伯相见。刘邦热情接待，并与项伯结为儿女亲家。项伯于是劝刘邦亲自前往向项羽解释、道歉。</p>
-<p>翌日，刘邦率随从抵达鸿门。项羽的首席谋士范增力劝主公在宴席上除掉刘邦，并埋伏武士，约定项羽举杯为号即动手。</p>
-<p>宴席上，刘邦态度谦卑、极尽奉承。项羽性情直爽，渐渐被安抚，不再有杀意，对范增多次示意皆视而不见。范增见计谋难成，便找来项羽的堂弟项庄，说：「大王太仁慈了。你进去以舞剑助兴为名，趁机杀了刘邦。」</p>
-<p>项庄入席敬酒后，请求舞剑。剑光闪动，越舞越靠近刘邦。项伯见状着急，起身说：「一人独舞兴致不高，让我来对舞吧！」随即拔剑起舞，暗中以身体挡在刘邦身前，使项庄无法下手。</p>
-<p>张良见情况危急，赶忙出去对刘邦的猛将樊哙说：「现在项庄拔剑起舞，他的用意就是要杀沛公啊！」这正是《史记》名句「今者项庄拔剑舞，其意常在沛公也」的由来。樊哙立即持武器闯入宴席。在张良与樊哙的保护下，刘邦最终找到机会离开，安全返回自己的军营。</p>
-<p>这就是历史上著名的「鸿门宴」。</p>
-<p>时光快转两千多年，场景换到华盛顿与东京。</p>
-<p>美国财政部长斯科特•贝森特（Scott Bessent）刚刚与日本联手，罕见地进行协调干预，以支撑持续暴跌的日圆。官方说法是盟友之间的团结之举。日圆已跌至数十年低点，逼近1美元兑164日圆，为自1980年代中期以来最弱。日圆此前处于无序贬值状态，进口通胀（尤其是能源与民生必需品）上升，东京担心日圆贬值陷入死亡螺旋。</p>
-<p>表面上看，华盛顿的协助显得慷慨。但若进一步以「诱因是塑造人类行为最强力的力量」这条公理来分析，整出戏就像极了项庄舞剑：表面表演是一回事，真正的目标却是另一回事。</p>
-<p>干预真正的目标，是防止美国国债出现失控式抛售。</p>
-<p>日本是美国国债最大的外国持有者，帐上约持有1.14至1.2兆美元。若东京为了捍卫日圆而大量抛售这些国债，将在美国长期殖利率本已敏感的时刻，进一步推高殖利率。贝森特绝不会让这种情况发生。</p>
-<p>干预日圆的逻辑十分明显。日圆贬值会把通膨输入日本。要支撑汇率，东京的选择有限。若积极加息，将推高日本政府公债殖利率。日本债务对GDP比率超过200%，殖利率急升可能引发经济衰退，并导致庞大的日圆套利交易（yen carry trade）无序平仓。</p>
-<p>所谓日圆套利交易，是指借入低息日圆，投资于其他高收益资产，估计规模从数千亿美元到数兆美元不等（若计入杠杆与不列入资产负债表的部份）。日圆若突然大幅升值，这些套利交易就被迫平仓，投资者必须卖掉外国资产（包括美国国债）来偿还日圆借款，这是华盛顿最不想见到的情况。</p>
-<p>日本的另一选择是卖出自己拥有的美国国债换取美元，再用美元买入日圆。贝森特不允许这种情况发生，因此他推动扩大联准会的「外国与国际货币当局回购机制」（FIMA Repo Facility）——目前每个交易对手每日上限为600亿美元——让日本能以国债作为抵押借入美元进行干预，而不必抛售美国债券。</p>
-<p>在最近这次行动中，美国更进一步选择卖出欧元（而非美元）来买入日圆。若卖出美元，将与「强势美元」政策相矛盾，并可能进一步推高美国殖利率；卖出欧洲资产则无此顾虑。有报导指出，欧洲中央银行是在交易完成后才被告知——这是违背主要央行之间惯常咨商规范的罕见做法。</p>
-<p>市场的即时反应相当戏剧性：日圆在短时间内急涨约5%。日圆升势持续了多久？数日后日圆就回吐相当部分涨幅，回落到1美元兑157至158日圆区间。历史经验显示，这类干预多半只是争取短暂喘息的时间，而非扭转根本趋势。利差、日本的财政轨迹，以及支撑日圆弱势的结构性力量，基本上都还在。若日圆贬值再度加速，将需要更大规模、更频繁的干预。</p>
-<p>其他国家与大型机构也因各自理由（外汇储备管理、流动性、收益率等）持有大量美国债务。一旦其中任何一方因为某种需要——例如为了取得美元购买石油——而决定卖出美国国债，同样的压力就会出现。华盛顿不愿看到外国帐户在市场已承压时抛售美国国债，这将迫使贝森特发动越来越多此类干预。而这些干预，本质上不过是用凭空印出的美元，进行变相的收益率曲线控制。</p>
-<p>简言之，为了不让美国长期国债殖利率升得太高、太快，贝森特会用尽一切可用方法以及任何必要手段，阻止美国国债泡沫爆破。</p>
-<p>债券市场的损失，将被转移到货币层面，也就是我们口袋里的银纸购买力会不断下降。</p>
-<p>对投资者而言，自保之路是黄金与白银。</p>
-<p>项庄舞剑，嘴上说只是助兴，真正的意图，从来不是助兴。今天也一样，跟着诱因走，真正目的就清楚了。</p>
+<p>同构（isomorphism）是两组实体之间一种特殊的映射（mapping）关系，它能完整保留结构。这两组事物外表看起来不同，内在运作方式却完全一致。要成为同构，必须满足三个条件：第一组中的每一个元素都恰好对应第二组中的一个元素，且没有遗漏；在第一组进行的运算，其结果必须精确对应第二组中的另一种运算；并且存在一个逆映射（inverse mapping），可以把第二组中的运算结果转化回第一组的运算结果。</p>
+<p>自然对数是教科书中的经典同构例子。它把正数的乘法世界，转变成实数的加法世界。对任意两个在第一组乘法世界的正数 a 与 b，我们都可用自然对数将它们转变成第二组加法世界中的 ln a 和 ln b，然后计算<span class="math inline">\(\ln a + \ln b\)</span>，因为 <span class="math inline">\(\ln a + \ln b = \ln(a \times b)\)</span>，我们可用对数的逆函数（inverse function），即指数函数（exponential或antilogarithm），还原a × b的乘积。</p>
+<p>在电子计算机尚未出现的年代，科学家正是靠这个技巧来简化巨大数字的乘法。他们翻开厚厚的对数表，把噩梦般的乘法变成简单的加法，算出答案后，再用反对数（anti-log，也就是把总和转回乘积的逆函数）换算回去。结构保持完整，只是算术变得不那么令人畏惧。</p>
+<p>同构在许多领域都有重要的应用。例如，在垃圾邮件过滤器中，演算法会根据电子邮件所包含的个别单字，计算该邮件为垃圾邮件的机率:</p>
+<p><span class="math inline">\(P(\text{Spam}\mid \text{words})\propto P(\text{Spam})\times P(\text{word}_{1}\mid \text{Spam})\times P(\text{word}_{2}\mid \text{Spam})\times \dots \times P(\text{word}_{n}\mid \text{Spam})\)</span></p>
+<p>在上述公式中，words = {word1, word2, …, wordn} 是经过移除停用词(stop words)后，该电子邮件所包含的单字集合。 P(Spam|words) 是在已知邮件包含这些单字的条件下，该邮件为垃圾邮件的后验机率(Posterior Probability)。 P(Spam|words) 与 P(Spam)（即邮件为垃圾邮件的先验机率 Prior Probability）以及各个单字的似然机率(Likelihood Probability)的乘积成正比。因此，计算 P(Spam|words) 涉及将介于 0 与 1 之间的机率数字相乘。只要相乘的次数够多，乘积就会急速趋近于零，超出处理器浮点暂存器可存储的范围，电脑于是把结果写成零，垃圾邮件过滤器就此中断。解决方法就是把整个乘数全部通过自然对数变成加数，也就是我们前面描述的做法。</p>
+<p>像<span class="math inline">\(\ln 10^{-5} \approx -11.51\)</span>这样的数字完全稳定。把数百个这样的数字加起来，只会得到一个大的负数，硬体可以毫不费力地储存。</p>
+<p>由于同构能保留结构，在一个领域被证明的任何定理，几乎可以机械式地转换到另一个领域。正因如此，同构可以用来分析 1999–2000 年的网路泡沫与当前的AI泡沫。这两个泡沫是同构的：光纤电缆变成了 GPU 丛集，「网路流量每 100 天翻一倍」变成了「AI 将把生产力提升到超乎想像的境界」，但内在逻辑完全相同。因此，从第一个泡沫发展出的每一个理论，都可以原封不动地搬到第二个泡沫，无须重新证明。</p>
+<p>在两场狂热中，投资人都抛弃了独立思考，怕执输不理估值是否合理就投入大量资金。网路泡沫年代，那些只有一个网站的亏损新创公司也获得数十亿美元的估值。 Pets.com、Webvan 以及数十家同类公司，全靠一个不知可否赚钱的概念就起飞。今天，同样的模式在AI公司以及支持它们的超大规模云端业者身上重现。领先模型公司的估值已攀升至数千亿美元。市场给予晶片制造商 - Nvidia、Broadcom、Micron、AMD、ASML、TSMC - 超高的PE：Nvidia 约 33 倍，Broadcom 45–60 倍，AMD超过 80 倍，ASML 50 倍以上。以目前价格买下整组AI公司股票，回本期要数十年之久，这与 2000 年初那些同样天价PE的缆线与伺服器公司一样。</p>
+<p>高估值支持更高的资本支出，而资本支出又可支撑更高估值的股价。高盛预测，超大规模业者的AI资本支出到 2027 年可能接近 1.4 兆美元。企业投入以兆美元计的资金，但迄今回报却相当微薄。麻省理工学院媒体实验室的一项研究（Project NANDA，《The GenAI Divide: State of AI in Business 2025》）检视了数百个企业计画后得出结论：尽管投入了数百亿美元，95% 的组织在生成式人工智能投资上获得的回报为零。这种模式在网路泡沫时期同样出现：「眼球数」与「页面浏览量」被当成未来获利的领先指标，但对大多数公司而言，那些利润从未实现。</p>
+<p>愿意付费的用户人数偏低。 OpenAI 自己披露，ChatGPT 已达到约 8 亿用户，但只有大约 5,000 万人 - 仅略超过 6% - 是付费用户。 1990 年代末期，同样的现象出现在免费电子邮件服务、内容入口网站与早期电子商务网站：用户数庞大，实际营业额却微不足道。</p>
+<p>创意会计与循环融资进一步把这两个泡沫的同构关系显示得更完整。 Nvidia 已成为一张相互关联交易网的中心齿轮：它对AI实验室与云端供应商进行股权投资，后者随后承诺大量采购 Nvidia 晶片，或租用 Nvidia 驱动的运算系统。资金循环来回，营业额被人为提升，进而强化「需求不可阻挡」的故事。思科与其他网路设备商在 1999–2000 年也曾玩弄类似手法，向客户提供慷慨的供应商融资，让客户再去购买更多思科设备。当音乐停止时，许多应收帐款最终变成了坏帐。</p>
+<p>没有人能精准预测爆破的时刻。网路泡沫经历大约两年的颠峰狂热期（1998–2000）膨胀，接着在之后的两年半崩塌，纳斯达克指数在十四年后才收复失地。 AI泡沫会同一下场吗？</p>
 <p>这篇文章也已发布在<a href="https://alandharma.substack.com/">我的Substack网站</a>上。</p>
 <p><strong>免责声明</strong></p>
 <p>本部落格所提供之内容仅供资讯与教育用途，并不构成任何财务、投资或专业建议。本人并非持牌财务顾问；文中所表达之观点仅属个人基于逻辑思考与一般观察所得的意见。金融市场本质上具有高度波动性与不可预测性，过往表现并不代表未来结果。</p>

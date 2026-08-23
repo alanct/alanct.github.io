@@ -8,7 +8,7 @@
 
 <meta name="author" content="Alan Tse">
 
-<title>项庄舞剑 – Alandharma le Flaneur</title>
+<title>同構與AI泡沫 – Alandharma le Flaneur</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&amp;family=Noto+Sans+SC&amp;display=swap">  
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -159,9 +188,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">项庄舞剑</h1>
+      <h1 class="title">同構與AI泡沫</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">投资</div>
+                <div class="quarto-category">投資</div>
               </div>
                   </div>
   </div>
@@ -179,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">发布于</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">2026年8月13日</p>
+        <p class="date">2026年8月23日</p>
       </div>
     </div>
     
@@ -200,37 +229,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><strong>项庄舞剑：贝森特真正在保卫的是日圆吗？</strong></p>
-<p><strong>官方说法是援助盟友。真正的诱因，是防止美国国债市场出现失控式抛售。</strong></p>
+<p><strong>同構（isomorphism）與即將到來的AI泡沫爆破</strong></p>
 <div style="float: left; margin-right: 15px;">
-<p><img src="post5.jpg" class="img-fluid" width="250"></p>
+<p><img src="post6.jpg" class="img-fluid" width="400"></p>
 </div>
-<p>秦朝末年，各路起义军中，刘邦与项羽的势力最为强大。双方曾约定：谁先攻下秦都咸阳，谁就在关中称王。结果刘邦先入咸阳，项羽大怒。</p>
-<p>项羽的远房叔父项伯，与刘邦的谋士张良交情甚笃。听到消息后，项伯连夜赶去警告张良，劝他赶紧逃走。张良不愿抛弃主公，反而引荐刘邦与项伯相见。刘邦热情接待，并与项伯结为儿女亲家。项伯于是劝刘邦亲自前往向项羽解释、道歉。</p>
-<p>翌日，刘邦率随从抵达鸿门。项羽的首席谋士范增力劝主公在宴席上除掉刘邦，并埋伏武士，约定项羽举杯为号即动手。</p>
-<p>宴席上，刘邦态度谦卑、极尽奉承。项羽性情直爽，渐渐被安抚，不再有杀意，对范增多次示意皆视而不见。范增见计谋难成，便找来项羽的堂弟项庄，说：「大王太仁慈了。你进去以舞剑助兴为名，趁机杀了刘邦。」</p>
-<p>项庄入席敬酒后，请求舞剑。剑光闪动，越舞越靠近刘邦。项伯见状着急，起身说：「一人独舞兴致不高，让我来对舞吧！」随即拔剑起舞，暗中以身体挡在刘邦身前，使项庄无法下手。</p>
-<p>张良见情况危急，赶忙出去对刘邦的猛将樊哙说：「现在项庄拔剑起舞，他的用意就是要杀沛公啊！」这正是《史记》名句「今者项庄拔剑舞，其意常在沛公也」的由来。樊哙立即持武器闯入宴席。在张良与樊哙的保护下，刘邦最终找到机会离开，安全返回自己的军营。</p>
-<p>这就是历史上著名的「鸿门宴」。</p>
-<p>时光快转两千多年，场景换到华盛顿与东京。</p>
-<p>美国财政部长斯科特•贝森特（Scott Bessent）刚刚与日本联手，罕见地进行协调干预，以支撑持续暴跌的日圆。官方说法是盟友之间的团结之举。日圆已跌至数十年低点，逼近1美元兑164日圆，为自1980年代中期以来最弱。日圆此前处于无序贬值状态，进口通胀（尤其是能源与民生必需品）上升，东京担心日圆贬值陷入死亡螺旋。</p>
-<p>表面上看，华盛顿的协助显得慷慨。但若进一步以「诱因是塑造人类行为最强力的力量」这条公理来分析，整出戏就像极了项庄舞剑：表面表演是一回事，真正的目标却是另一回事。</p>
-<p>干预真正的目标，是防止美国国债出现失控式抛售。</p>
-<p>日本是美国国债最大的外国持有者，帐上约持有1.14至1.2兆美元。若东京为了捍卫日圆而大量抛售这些国债，将在美国长期殖利率本已敏感的时刻，进一步推高殖利率。贝森特绝不会让这种情况发生。</p>
-<p>干预日圆的逻辑十分明显。日圆贬值会把通膨输入日本。要支撑汇率，东京的选择有限。若积极加息，将推高日本政府公债殖利率。日本债务对GDP比率超过200%，殖利率急升可能引发经济衰退，并导致庞大的日圆套利交易（yen carry trade）无序平仓。</p>
-<p>所谓日圆套利交易，是指借入低息日圆，投资于其他高收益资产，估计规模从数千亿美元到数兆美元不等（若计入杠杆与不列入资产负债表的部份）。日圆若突然大幅升值，这些套利交易就被迫平仓，投资者必须卖掉外国资产（包括美国国债）来偿还日圆借款，这是华盛顿最不想见到的情况。</p>
-<p>日本的另一选择是卖出自己拥有的美国国债换取美元，再用美元买入日圆。贝森特不允许这种情况发生，因此他推动扩大联准会的「外国与国际货币当局回购机制」（FIMA Repo Facility）——目前每个交易对手每日上限为600亿美元——让日本能以国债作为抵押借入美元进行干预，而不必抛售美国债券。</p>
-<p>在最近这次行动中，美国更进一步选择卖出欧元（而非美元）来买入日圆。若卖出美元，将与「强势美元」政策相矛盾，并可能进一步推高美国殖利率；卖出欧洲资产则无此顾虑。有报导指出，欧洲中央银行是在交易完成后才被告知——这是违背主要央行之间惯常咨商规范的罕见做法。</p>
-<p>市场的即时反应相当戏剧性：日圆在短时间内急涨约5%。日圆升势持续了多久？数日后日圆就回吐相当部分涨幅，回落到1美元兑157至158日圆区间。历史经验显示，这类干预多半只是争取短暂喘息的时间，而非扭转根本趋势。利差、日本的财政轨迹，以及支撑日圆弱势的结构性力量，基本上都还在。若日圆贬值再度加速，将需要更大规模、更频繁的干预。</p>
-<p>其他国家与大型机构也因各自理由（外汇储备管理、流动性、收益率等）持有大量美国债务。一旦其中任何一方因为某种需要——例如为了取得美元购买石油——而决定卖出美国国债，同样的压力就会出现。华盛顿不愿看到外国帐户在市场已承压时抛售美国国债，这将迫使贝森特发动越来越多此类干预。而这些干预，本质上不过是用凭空印出的美元，进行变相的收益率曲线控制。</p>
-<p>简言之，为了不让美国长期国债殖利率升得太高、太快，贝森特会用尽一切可用方法以及任何必要手段，阻止美国国债泡沫爆破。</p>
-<p>债券市场的损失，将被转移到货币层面，也就是我们口袋里的银纸购买力会不断下降。</p>
-<p>对投资者而言，自保之路是黄金与白银。</p>
-<p>项庄舞剑，嘴上说只是助兴，真正的意图，从来不是助兴。今天也一样，跟着诱因走，真正目的就清楚了。</p>
-<p>这篇文章也已发布在<a href="https://alandharma.substack.com/">我的Substack网站</a>上。</p>
-<p><strong>免责声明</strong></p>
-<p>本部落格所提供之内容仅供资讯与教育用途，并不构成任何财务、投资或专业建议。本人并非持牌财务顾问；文中所表达之观点仅属个人基于逻辑思考与一般观察所得的意见。金融市场本质上具有高度波动性与不可预测性，过往表现并不代表未来结果。</p>
-<p>强烈建议读者在作出任何投资或财务决策前，应自行进行独立研究、充分的调查分析，并咨询合格的专业人士。透过存取及使用本部落格的资料，您即承认并同意作者对于因依赖此处所载资讯而可能导致的任何损失、损害或不利结果，概不承担任何责任或义务。</p>
+<p>同構（isomorphism）是兩組實體之間一種特殊的映射（mapping）關係，它能完整保留結構。這兩組事物外表看起來不同，內在運作方式卻完全一致。要成為同構，必須滿足三個條件：第一組中的每一個元素都恰好對應第二組中的一個元素，且沒有遺漏；在第一組進行的運算，其結果必須精確對應第二組中的另一種運算；並且存在一個逆映射（inverse mapping），可以把第二組中的運算結果轉化回第一組的運算結果。</p>
+<p>自然對數是教科書中的經典同構例子。它把正數的乘法世界，轉變成實數的加法世界。對任意兩個在第一組乘法世界的正數 a 與 b，我們都可用自然對數將它們轉變成第二組加法世界中的 ln a 和 ln b，然後計算<span class="math inline">\(\ln a + \ln b\)</span>，因為 <span class="math inline">\(\ln a + \ln b = \ln(a \times b)\)</span>，我們可用對數的逆函數（inverse function），即指數函數（exponential或antilogarithm），還原a × b的乘積。</p>
+<p>在電子計算機尚未出現的年代，科學家正是靠這個技巧來簡化巨大數字的乘法。他們翻開厚厚的對數表，把噩夢般的乘法變成簡單的加法，算出答案後，再用反對數（anti-log，也就是把總和轉回乘積的逆函數）換算回去。結構保持完整，只是算術變得不那麼令人畏懼。</p>
+<p>同構在許多領域都有重要的應用。例如，在垃圾郵件過濾器中，演算法會根據電子郵件所包含的個別單字，計算該郵件為垃圾郵件的機率:</p>
+<p><span class="math inline">\(P(\text{Spam}\mid \text{words})\propto P(\text{Spam})\times P(\text{word}_{1}\mid \text{Spam})\times P(\text{word}_{2}\mid \text{Spam})\times \dots \times P(\text{word}_{n}\mid \text{Spam})\)</span></p>
+<p>在上述公式中，words = {word1, word2, …, wordn} 是經過移除停用詞(stop words)後，該電子郵件所包含的單字集合。P(Spam|words) 是在已知郵件包含這些單字的條件下，該郵件為垃圾郵件的後驗機率(Posterior Probability)。P(Spam|words) 與 P(Spam)（即郵件為垃圾郵件的先驗機率 Prior Probability）以及各個單字的似然機率(Likelihood Probability)的乘積成正比。因此，計算 P(Spam|words) 涉及將介於 0 與 1 之間的機率數字相乘。只要相乘的次數夠多，乘積就會急速趨近於零，超出處理器浮點暫存器可存儲的範圍，電腦於是把結果寫成零，垃圾郵件過濾器就此中斷。解決方法就是把整個乘數全部通過自然對數變成加數，也就是我們前面描述的做法。</p>
+<p>像<span class="math inline">\(\ln 10^{-5} \approx -11.51\)</span>這樣的數字完全穩定。把數百個這樣的數字加起來，只會得到一個大的負數，硬體可以毫不費力地儲存。</p>
+<p>由於同構能保留結構，在一個領域被證明的任何定理，幾乎可以機械式地轉換到另一個領域。正因如此，同構可以用來分析 1999–2000 年的網路泡沫與當前的AI泡沫。這兩個泡沫是同構的：光纖電纜變成了 GPU 叢集，「網路流量每 100 天翻一倍」變成了「AI 將把生產力提升到超乎想像的境界」，但內在邏輯完全相同。因此，從第一個泡沫發展出的每一個理論，都可以原封不動地搬到第二個泡沫，無須重新證明。</p>
+<p>在兩場狂熱中，投資人都拋棄了獨立思考，怕執輸不理估值是否合理就投入大量資金。網路泡沫年代，那些只有一個網站的虧損新創公司也獲得數十億美元的估值。Pets.com、Webvan 以及數十家同類公司，全靠一個不知可否賺錢的概念就起飛。今天，同樣的模式在AI公司以及支持它們的超大規模雲端業者身上重現。領先模型公司的估值已攀升至數千億美元。市場給予晶片製造商 - Nvidia、Broadcom、Micron、AMD、ASML、TSMC - 超高的PE：Nvidia 約 33 倍，Broadcom 45–60 倍，AMD超過 80 倍，ASML 50 倍以上。以目前價格買下整組AI公司股票，回本期要數十年之久，這與 2000 年初那些同樣天價PE的纜線與伺服器公司一樣。</p>
+<p>高估值支持更高的資本支出，而資本支出又可支撐更高估值的股價。高盛預測，超大規模業者的AI資本支出到 2027 年可能接近 1.4 兆美元。企業投入以兆美元計的資金，但迄今回報卻相當微薄。麻省理工學院媒體實驗室的一項研究（Project NANDA，《The GenAI Divide: State of AI in Business 2025》）檢視了數百個企業計畫後得出結論：儘管投入了數百億美元，95% 的組織在生成式人工智能投資上獲得的回報為零。這種模式在網路泡沫時期同樣出現：「眼球數」與「頁面瀏覽量」被當成未來獲利的領先指標，但對大多數公司而言，那些利潤從未實現。</p>
+<p>願意付費的用戶人數偏低。OpenAI 自己披露，ChatGPT 已達到約 8 億用戶，但只有大約 5,000 萬人 - 僅略超過 6% - 是付費用戶。1990 年代末期，同樣的現象出現在免費電子郵件服務、內容入口網站與早期電子商務網站：用戶數龐大，實際營業額卻微不足道。</p>
+<p>創意會計與循環融資進一步把這兩個泡沫的同構關係顯示得更完整。Nvidia 已成為一張相互關聯交易網的中心齒輪：它對AI實驗室與雲端供應商進行股權投資，後者隨後承諾大量採購 Nvidia 晶片，或租用 Nvidia 驅動的運算系統。資金循環來回，營業額被人為提升，進而強化「需求不可阻擋」的故事。思科與其他網路設備商在 1999–2000 年也曾玩弄類似手法，向客戶提供慷慨的供應商融資，讓客戶再去購買更多思科設備。當音樂停止時，許多應收帳款最終變成了壞帳。</p>
+<p>沒有人能精準預測爆破的時刻。網路泡沫經歷大約兩年的顛峰狂熱期（1998–2000）膨脹，接著在之後的兩年半崩塌，納斯達克指數在十四年後才收復失地。AI泡沫會同一下場嗎？</p>
+<p>這篇文章也已發佈在<a href="https://alandharma.substack.com/">我的Substack網站</a>上</p>
+<p><strong>免責聲明</strong></p>
+<p>本部落格所提供之內容僅供資訊與教育用途，並不構成任何財務、投資或專業建議。本人並非持牌財務顧問；文中所表達之觀點僅屬個人基於邏輯思考與一般觀察所得的意見。金融市場本質上具有高度波動性與不可預測性，過往表現並不代表未來結果。</p>
+<p>強烈建議讀者在作出任何投資或財務決策前，應自行進行獨立研究、充分的調查分析，並諮詢合格的專業人士。透過存取及使用本部落格的資料，您即承認並同意作者對於因依賴此處所載資訊而可能導致的任何損失、損害或不利結果，概不承擔任何責任或義務。</p>
 
 
 
