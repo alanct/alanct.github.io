@@ -1,0 +1,63 @@
+---
+title: "Bouncing Universe and Long-term Interest Rates"
+author: "Alan Tse"
+date: last-modified
+categories: [investment]
+lang: en
+---
+**The Bouncing Universe and Long-term Interest Rates** 
+
+**Why Real Estate Have Become a Long-Duration Bond Nobody Should Want to Hold**
+
+::: {style="float: left; margin-right: 15px;"}
+![](post7.jpg){width="400px"} 
+:::
+
+The official story of the cosmos is the hot Big Bang plus ΛCDM (Lambda-Cold Dark Matter) plus inflation. A very long time ago the whole universe was super condensed into a tiny point of mass called the Singularity. One day the point mass went boom and the universe started getting bigger. It is still getting bigger, and lately it is getting bigger and faster because of a mysterious invisible dark energy called Lambda (Λ) that drives the accelerated expansion of space. Without dark energy, the universe’s expansion should have been slowing down under gravity’s pull. Cold Dark Matter (CDM) is non-baryonic matter that moves slowly compared to light, which clumps together under gravity and form the structural scaffolding for galaxies. Lastly, inflation was an early, extremely rapid stretch that ironed the universe flat and smooth.
+
+There is a rival family of ideas: cyclic or oscillating models. In these the universe does not begin with one big bang and end with endless expansion. It expands, then contracts (or “bounces”), then expands again - potentially forever. Each cycles can last trillions of years. The best-known modern version is the Steinhardt–Turok cyclic/ekpyrotic model, which postulates the existence of two vast cosmic sheets called branes that float in a high-dimensional space. They slowly drift together, collide gently, and bounce apart. Each collision is a new “bang.” Before the collision comes a long, ultra-slow, ultra-smooth contraction called ekpyrosis. That slow squeeze “irons” the universe to make it geometrically flat.
+
+The bouncing universe theory finds a striking echo in traditional Chinese thought, where the cosmos is perceived as eternally and perpetually renewing itself through endless cycles of transformation. The ancient Chinese text Ten Great Classics (《十大經》) summarizes: “When things reach their extreme, they reverse; when they flourish, they decline. This is the way of heaven and earth, and the principle of human affairs.” (「極而反，盛而衰，天地之道也，人之理也。」) Lao Tzu (老子) is even clearer: “Reversal is the movement of the Dao.” (「反者道之動。」) In other words, when the pendulum swings one way it is simultaneously storing energy to swing the opposite way; at the highest point it turns.
+
+Long-term interest rates (see the figure below) obey the same rhythm. The 10-year U.S. Treasury yield rose from a post-war low near 1.5 % in the mid-1940s to a peak of 15.84 % in September 1981 - a climb of roughly 35 years. It then fell for the next 39 years, touching an all-time low of 0.52 % in August 2020. The full arc from low to high to low spans about 74 years. Each major leg lasted 35-40 years. The 30-year Treasury tells a similar story: it bottomed near 1 % in 2020 and has since climbed to around 5.2 % in recent months.
+
+::: {style="float: left; margin-right: 15px;"}
+![](LTintRate.jpg)
+:::
+
+I believe the primary interest rate trend is now upward. The arithmetic of the debt leaves little choice. Gross U.S. federal debt has already crossed $40 trillion. The government still runs trillion-dollar deficits year after year, even in times of economic expansions. Once the debt becomes too large to pay back in real terms, the Federal Reserve’s overriding job is to keep the bond market from breaking. The only politically feasible tool left is some form of yield-curve control - buying bonds or capping yields with newly created money so that long rates do not rise far enough to explode interest costs. That is financial repression dressed up as policy.
+
+Creditors are not stupid. Foreign central banks have been reducing their Treasury holdings for years. Investors who buy long-duration bonds want assurance that inflation will stay contained. When they begin to doubt that assurance, they simply demand higher yields.
+
+Bonds have been a death trap for the better part of the last six years and look set to remain one. The farther yields rise, the deeper the price falls.
+
+Property works the same way. Higher interest rates raise the cost of mortgages, lift the capitalization rates investors demand, and therefore lower the present value of future rents. Transaction volumes slow, development stalls, and prices adjust downward. Commercial real estate (offices, retail) already faces structural headwinds from remote work and e-commerce. Higher rates only add pressure. Residential markets are somewhat more resilient because people still need places to live and supply is often constrained, yet as interest rates rise, affordability would become brutal for new buyers.
+
+Hong Kong is the extreme case. According to the latest Demographia International Housing Affordability report, the median house-price-to-income multiple still sits at 14.1—meaning a household would need 14.1 years of total income with zero spending on food, transport, or anything else just to buy a median flat. Hong Kong has held the title of the world’s most unaffordable major housing market for sixteen consecutive years. Even after a multi-year price correction from the 2021 peak (when the multiple briefly hit 23.2), the city remains in the “severely unaffordable” category by any global standard. The gradually getting higher and higher interest rates would make the math even less forgiving.
+
+You may argue that government money printing to inflate away its colossal debt would inflate property prices as well, and therefore real estate would remain wealth preserving if you pay for your property in cash without a mortgage. Yet when those same property prices are measured in a harder yardstick - gold - a very different picture emerges.
+
+Consider Hong Kong’s residential market. The Rating and Valuation Department’s private domestic price index (1999 = 100) climbed to a peak near 393 in 2021. By late 2024 and into 2025 it had fallen into the high-280s to low-290s range - a nominal decline of roughly 25–28 % from the top. Even after the partial rebound seen in 2025–2026, prices remain well below the 2021 high.
+
+Over the same period gold has more than doubled. An ounce that cost roughly US$1,800–2,000 around the property peak now trades above US$4,300–4,600. In other words, while the number of Hong Kong dollars needed to buy a flat has fallen only moderately, the number of ounces of gold required has dropped dramatically. Measured in real, non-printable money, Hong Kong residential property has become considerably cheaper.
+
+Now let’s take a longer time horizon. In 2000, an 800-square-foot apartment in a mid-tier district might have changed hands for around HK$4 million. With gold then trading near HK$2,000 per troy ounce, that flat was worth roughly 2,000 ounces of gold.
+
+Fast-forward to today. The same property might fetch about HK$10 million in nominal terms. Yet gold has risen to roughly HK$32,000–35,000 per ounce. In gold terms the apartment now costs only around 280–310 ounces — a sharp decline of more than 80 percent.
+
+In short, nominal Hong Kong property prices have enjoyed a multi-decade bull run. Measured in a non-printable monetary metal, however, the real purchasing power of an average apartment is substantially lower than it was at the start of the millennium.
+
+Rental returns offer little consolation. Gross yields on residential property in Hong Kong currently hover around 3.3–3.6 percent. After management fees, rates, repairs, and vacancy, net yields often fall to 2 percent or less. Why accept roughly 2 percent for the trouble, illiquidity, and leverage risk of bricks and mortar when a risk-free 10-year U.S. Treasury yields around 4.7 percent?
+
+Lao Tzu observed in chapter 77 of the Dao De Jing (《道德經》) : “The Way of Heaven reduces what is excessive and supplements what is insufficient.” (「天之道，損有餘而補不足。」) In the Hong Kong property market the excess has long been valuations, leverage, and the stubborn belief that prices only go up. The ongoing correction is simply the Dao at work. If the long-term interest-rate cycle continues to rhyme with history, the primary trend for yields is now upward. A rising-rate leg of even roughly similar length to the previous ones (thirty to forty years) would keep pressure on both bonds and real estate for a very long time. In that environment, holding long-duration paper or highly leveraged property looks less like a reliable store of value and more like a guaranteed confiscation of buying power.
+
+There is nothing anyone can do to reverse the long cycle or hold back the tide. Smart capital rides the wave rather than fighting it.
+
+
+This article has also been published on [my Substack site](https://alandharma.substack.com/).
+
+**Disclaimer:** 
+
+The content provided on this blog is for informational and educational purposes only and does not constitute financial, investment, or professional advice. I am not a licensed financial advisor; the views expressed are solely my personal opinions based on logic and general observations. Financial markets are inherently volatile and unpredictable, and past performance is not indicative of future results.
+
+Readers are strongly encouraged to conduct independent research, perform thorough due diligence, and consult with qualified professionals before making any investment or financial decisions. By accessing and using this blog, you acknowledge and agree that the author bears no responsibility or liability for any losses, damages, or adverse outcomes that may result from reliance on the information presented herein.
