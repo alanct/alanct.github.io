@@ -1,0 +1,63 @@
+---
+title: "When the Cobweb Turns Deadly"
+author: "Alan Tse"
+date: last-modified
+categories: [investment]
+lang: en
+---
+**When the Cobweb Turns Deadly** 
+
+**How Loss of Faith Turns Bond Yields into a Runaway Feedback Loop**
+
+::: {style="float: left; margin-right: 15px;"}
+![](post9.jpg){width="400px"} 
+:::
+
+In economics there is a useful cobweb model for analyzing economic cycles and bubbles. In its well-behaved, negative-feedback version, high prices encourage producers to supply more, which eventually brings prices back down. The system oscillates and settles. In the positive-feedback version, however, higher price expectations themselves push actual prices still higher. The spider’s web tightens until it snaps.
+
+Bond markets can flip from the first version to the second with alarming speed. When investors still trust that the central bank will eventually crush inflation, higher nominal yields act as a brake. When that trust evaporates, the same higher yields become an accelerator. Investors demand ever-larger inflation risk premiums because they are highly skeptical of the central bank's willingness and ability to quash inflation. Those higher yields are read as proof that the system is broken, which further inflates inflation expectations. The loop feeds on itself.
+
+The mathematics is straightforward. Expected inflation can be written as a simple autoregressive process:
+
+$$\pi_{t+1} = \pi_t + k(\pi_t – \pi_{t-1})$$
+
+where $\pi_t$ is the expected inflation at time t; and k is the feedback coefficient measuring how intensely investors extrapolate increases in inflation expectations from times t-1 to t into future inflation expectations.
+
+Rearranging into a standard second-order linear homogeneous difference equation:
+
+$$\pi_{t+1} – (1 + k) \pi_t + \pi_{t-1}) = 0$$
+The characteristic equation becomes: $\lambda^2 - (1 + k)\lambda + k = 0$. Factoring this characteristic equation reveals its roots: $\lambda_1 = 1, \lambda_2 = k$. The general solution for expected inflation over time is therefore $\pi_t = C_1(1)^t + C_2 k ^t$ 
+
+For the nominal interest rate to experience an explosive, cascading spiral, the second characteristic root must sit outside the unit circle ($|\lambda_2 | =k> 1$). In this situation, institutional confidence is destroyed, pushing future interest rates exponentially higher.
+
+The market version of impending loss of confidence is currently on display across the yield curve. Long-term U.S. Treasury yields have climbed to levels not seen in more than two decades: the 10-year has traded above 5.2 percent and the 30-year above 5.6 percent. Long-duration bond funds such as TLT have been crushed and show little sign of finding a durable floor. Similar multi-decade highs have appeared in Japan, the United Kingdom and parts of continental Europe.
+
+The United States faces a particularly awkward refinancing calendar. Roughly one-third of marketable U.S. Treasury debt matures and needs to be rolled over within a 12-month window. Foreign official buyers are no longer reliable underwriters. China’s reported holdings of U.S. Treasuries have fallen to around USD 618 billion—the lowest level since 2008 and less than half the peak above USD $1.3 trillion reached more than a decade ago. Japanese institutions, long a steady source of demand, are under growing domestic pressure to favor JGBs as local yields rise; any sustained repatriation would remove another large bid from the Treasury market.
+
+Meanwhile the private sector is not helping. Capital-intensive AI and technology firms continue to issue large volumes of debt and equity-linked paper to fund data centers and chip purchases, competing directly with the Treasury for investor capital. 
+
+This is the classic debt-trap spiral. Higher yields raise the government’s interest bill, which widens the deficit, which requires still more issuance, which pushes yields higher again. Equity markets, already priced for perfection and heavily levered, become vulnerable to any sustained rise in the discount rate. A sharp equity correction would in turn damage capital-gains and corporate-tax receipts, worsening the fiscal arithmetic still further.
+
+Could the Federal Reserve simply do a Volcker and raise short-term rates high enough to break inflation expectations? In 1980 the entire federal debt was less than USD 1 trillion. Today it exceeds USD 40 trillion. Annual deficits still run near USD 2 trillion even outside recessions. Entitlement programs and interest costs leave little discretionary room. A genuine Volcker-style campaign would risk an immediate and politically intolerable rise in debt-service costs. Markets understand this constraint. That is why confidence in the Fed’s willingness and ability to kill inflation is shaking.
+
+Higher yields are not an abstract problem for governments alone. Corporate debt, household mortgages, credit-card balances, student loans, and the enormous private-credit complex were all expanded under the assumption that money would remain cheap. A sustained 1 percentage-point rise in the general level of rates multiplies interest costs across every balance sheet that must refinance. Projects that looked viable at 2 percent look precarious at 5 or 6 percent. Malinvestment will be revealed in due course.
+
+Financial institutions that grew fat on leverage will eventually need support. History suggests the central bank will supply it — through swap lines, emergency facilities, or outright balance-sheet expansion — because the alternative is systemic collapse. Once that process begins in earnest, the policy priority shifts from controlling inflation to preserving the debt market and the banking system. 
+
+Bonds have already delivered a miserable decade for investors who treated them as risk-free ballast. When the traditional safe-haven asset itself becomes a source of volatility, capital looks for the one monetary asset that cannot be printed: gold.
+
+In ordinary times gold dislikes rising interest rates. The opportunity cost of holding a non-yielding metal becomes painful. But the relationship changes once the dominant concern shifts from return on capital to return of capital. When investors begin to doubt the long-term purchasing power of the currency in which their bonds will be repaid, gold stops behaving like a rate-sensitive commodity and starts behaving like monetary insurance.
+
+The 1970s supply the clearest modern illustration. After the dollar’s link to gold was severed in 1971, the metal climbed from roughly USD 35–40 an ounce to a peak near USD 850 in January 1980 — an increase of more than twenty-fold. Over the same stretch the 10-year Treasury yield rose from the mid-6 percent range in the early 1970s to an all-time historical peak of 15.84% in October 1981. For much of the decade, especially the powerful second half, yields and the gold price advanced together. Inflation expectations were escaping the central bank’s control; higher nominal rates were no longer a deterrent — they were simply further evidence that the monetary system was in serious trouble. Gold thrived in that environment.
+
+The positive-feedback cobweb is a description of what happens when the stabilizing assumptions of the previous regime stop working. Confidence is a delicate thing. Once it begins to unravel, the interest-rate spiral can become self-reinforcing. At that point the printing press is no longer optional. And gold, patient as ever, sits tight waiting for Mr. Market to press the reset button.
+
+
+
+This article has also been published on [my Substack site](https://alandharma.substack.com/).
+
+**Disclaimer:** 
+
+The content provided on this blog is for informational and educational purposes only and does not constitute financial, investment, or professional advice. I am not a licensed financial advisor; the views expressed are solely my personal opinions based on logic and general observations. Financial markets are inherently volatile and unpredictable, and past performance is not indicative of future results.
+
+Readers are strongly encouraged to conduct independent research, perform thorough due diligence, and consult with qualified professionals before making any investment or financial decisions. By accessing and using this blog, you acknowledge and agree that the author bears no responsibility or liability for any losses, damages, or adverse outcomes that may result from reliance on the information presented herein.
